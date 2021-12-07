@@ -1,0 +1,77 @@
+
+body {
+    background: #456;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .login 
+  {
+    width: 400px;
+    margin: 16px auto;
+    font-size: 16px;
+    border-style: solid;
+    border-color: hotpink;
+    font-style: oblique;
+    font-family: inherit;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    box-shadow: 3px 3px blueviolet;
+    background-color: salmon;
+    transition-duration: 2s;
+    transition-delay: 1s;
+  }
+.login-header
+{
+    text-align: center;
+    text-shadow: 2px 3px royalblue;
+}
+.login-container
+{
+    text-align: center;
+}
+input[type=email]
+{
+    border-radius: 10px;
+    width: 90%;
+    padding: 10px;
+    border: 1px solid gray;
+    background-color: rgb(138, 153, 51);
+    font-family: cursive;
+}
+input[type=password]
+{
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: cursive;
+    border: 1px solid gray;
+    background-color: rgb(138, 153, 51);
+}
+input[type=submit]
+{
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid gray;
+    font-family: cursive;
+    border-style: dotted;
+    box-sizing: content-box;
+    font-size: large;
+    border-color: seagreen;
+    cursor: pointer;
+    width: 50%;
+    padding: 10px;
+    background-color: slateblue;
+}
+input[type=email]:hover
+{
+    background-color: royalblue;
+}
+input[type=password]:hover
+{
+    background-color: royalblue;
+}
+input[type=submit]:hover
+{
+    background-color: skyblue;
+}
+
